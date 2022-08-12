@@ -12,4 +12,5 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instructions">Pull Navigration Drawer by right swipe. \n \nGo to the Image Url Fragment. \n \nPaste the url of your Image. \n \nClick on the Preview Button. \n \nWidth and Height of the image will be automatically fetched. \n \nYou can change the width and height of the image if you want. \n \nClick on the start btn. \n \nDraw the cloud of part of the image. \n \nUse the icons for helps like to fill the color you can choose bigger brush, or you can use undo and redo options. \n \nClick on remove background btn to remove the background and make the drawing opaque. \n \nClick on the save btn for saving the image on your device. \n \nYou can share the image by clicking the share button, Local copy of the image shared will be saved in the device. \n\n\n\n\n</string>
 </resources>

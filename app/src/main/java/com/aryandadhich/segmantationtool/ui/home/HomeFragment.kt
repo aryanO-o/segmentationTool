@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.aryandadhich.segmantationtool.databinding.FragmentHomeBinding
+import kotlinx.android.synthetic.main.nav_header_main.*
 
 class HomeFragment : Fragment() {
 
@@ -28,9 +29,8 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
         homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+
         }
         return root
     }
