@@ -50,7 +50,19 @@ class GalleryFragment : Fragment() {
     }
 
     private fun onStartClicked() {
-        galleryViewModel.setData(binding.widthOfImageEditTxt.text.toString().toInt(), binding.heightOfImageEditTxt.text.toString().toInt(), binding.imgUrlEditTxt.text.toString())
+        var sendWidth: Int;
+        var sendHeight: Int;
+        if(binding.widthOfImageEditTxt.text.toString() == ""){
+            sendWidth = 0;
+        }else{
+            sendWidth = binding.widthOfImageEditTxt.text.toString().toInt();
+        }
+        if(binding.heightOfImageEditTxt.text.toString() == ""){
+            sendHeight = 0;
+        }else{
+            sendHeight = binding.heightOfImageEditTxt.text.toString().toInt();
+        }
+        galleryViewModel.setData(sendWidth, sendHeight, binding.imgUrlEditTxt.text.toString())
         navigateToSegmentationFragment()
     }
 

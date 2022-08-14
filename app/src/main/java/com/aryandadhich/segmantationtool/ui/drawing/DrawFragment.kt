@@ -83,6 +83,9 @@ class DrawFragment : Fragment() {
             imgWidth = args.requiredImgWidth
         if(args.backgroundUrl != null)
             setBackgroundImageUsingUrl(args.backgroundUrl!!)
+        else {
+            removeBackgroundImage()
+        }
     }
 
     private fun setBackgroundImageUsingUrl(backgroundUrl : String) {
