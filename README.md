@@ -21,6 +21,11 @@ This App was made for the research over sky-cloud segmentation.
 - Add, remove background color as required.
 - Save or share the image through the app.
 
+
+
+### Get the app
+- [Download](https://github.com/aryanO-o/segmentationTool/raw/main/resources/segmentationTool.apk)
+
 ### How to use app
 On opening the app we will see the home fragment which contains the instruction on how we can use the app for ground truth labeling. This will be helpful for the new users of the app.<br />
 <p align="center">
@@ -90,8 +95,5 @@ Comparing Actual image vs ground truth image.
 <img src = "https://github.com/aryanO-o/segmentationTool/blob/main/resources/Figures/savedImage.jpg">
 </p>
 
-
-### Get the app
-- [Download](https://github.com/aryanO-o/segmentationTool/raw/main/resources/segmentationTool.apk)
 
 
